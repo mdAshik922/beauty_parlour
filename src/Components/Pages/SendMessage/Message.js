@@ -43,7 +43,6 @@ body: JSON.stringify(isMessage)
     
 <TextField sx={{marginRight: '15px'}} onBlur={handelInput} name="name"  label=" Name" variant="standard"  focused />
 
-
 <TextField onBlur={handelInput} name="email"  type="email" label=" Email" variant="standard"  focused />
 <br/>
 <br/>
