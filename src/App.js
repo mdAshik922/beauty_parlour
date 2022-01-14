@@ -26,7 +26,6 @@ function App() {
        <Route  path="/create"> <Create></Create>     </Route>
 
        <Route  path="/login"> <Login></Login>   </Route>
-       
 
      </Switch>
      <Footer></Footer>
