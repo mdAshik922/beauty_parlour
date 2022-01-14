@@ -13,7 +13,7 @@ const Footer = () => {
                 <Grid item xs={8}  md={12}>
                  <Typography variant="h6">
 <img width="15px" src={map} alt=""/>
-H#000 (oth Floor), Road #00, 
+H#000 (1st Floor), Road #00, 
          </Typography>
                  <Typography variant="h6">
 
