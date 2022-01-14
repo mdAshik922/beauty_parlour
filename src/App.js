@@ -9,6 +9,7 @@ import Login from './Components/Pages/UserAcount/Login/Login';
 import Header from './Components/Pages/Header/Header';
 import Appointment from './Components/Appointment/Appointment';
 import PrvateRoute from './Components/PrivateRoute/PrvateRoute';
+
 function App() {
   return (
     <div className="App">
@@ -17,13 +18,11 @@ function App() {
    <Header></Header>
      <Switch>
        <Route exact path="/">  <Home></Home> </Route>
-      
-      
+
        <Route  path="/home">  <Home></Home>   </Route>
 
        <PrvateRoute  path="/appointment">  <Appointment></Appointment>  </PrvateRoute>
-      
-    
+
        <Route  path="/create"> <Create></Create>     </Route>
 
        <Route  path="/login"> <Login></Login>   </Route>
