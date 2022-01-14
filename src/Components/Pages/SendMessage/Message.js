@@ -26,11 +26,9 @@ body: JSON.stringify(isMessage)
         .then(res => res.json())
         .then(data => {
             if (data.insertedId){
-            alert('succes add user')
-               
-             
-                        }
-                    })
+            alert('succes add user');
+                 }
+                    });
                     e.preventDefault();
     };
     return (
