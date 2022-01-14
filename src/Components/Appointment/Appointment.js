@@ -12,11 +12,8 @@ import Typography from '@mui/material/Typography';
 import { Button} from '@mui/material';
 import { NavLink } from 'react-router-dom';
 import {
-  Switch,
-  Route,
-  Link,
-  useRouteMatch
-} from "react-router-dom";
+  Switch, Route,
+  Link,  useRouteMatch} from "react-router-dom";
 import Admin from '../Admin/Admin';
 import AppointmentDashBord from './AppointmentDashBord';
 import AddDoctor from '../AddDoctor/AddDoctor';
