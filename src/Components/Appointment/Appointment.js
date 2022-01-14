@@ -104,7 +104,6 @@ function Appointment(props) {
             '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
           }} open >
          
-       
           {drawer}
         </Drawer>
       </Box>
