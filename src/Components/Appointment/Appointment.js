@@ -80,8 +80,8 @@ function Appointment(props) {
       <Box
         component="nav"
         sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
-        aria-label="mailbox folders"
-      >
+        aria-label="mailbox folders" >
+     
       
         <Drawer
           container={container}
