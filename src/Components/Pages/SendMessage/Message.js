@@ -25,7 +25,6 @@ body: JSON.stringify(isMessage)
         })
         .then(res => res.json())
         .then(data => {
-            // console.log(data)
             if (data.insertedId){
             alert('succes add user')
                
@@ -33,7 +32,7 @@ body: JSON.stringify(isMessage)
                         }
                     })
                     e.preventDefault();
-    }
+    };
     return (
     
 <Box sx={{ minWidth: 275,  backgroundColor: "#fff4f6", marginBottom: "10%" }}>
