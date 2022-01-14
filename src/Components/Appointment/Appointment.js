@@ -116,8 +116,6 @@ function Appointment(props) {
           <Route exact path={path}><AppointmentDashBord></AppointmentDashBord></Route>
           <Route  path={`${path}/admin`}><Admin></Admin></Route>
           <Route  path={`${path}/adddoctor`}><AddDoctor></AddDoctor></Route>
-
-         
         </Switch>
 
       </Box>
