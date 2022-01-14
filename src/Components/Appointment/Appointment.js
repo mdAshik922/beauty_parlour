@@ -120,8 +120,6 @@ function Appointment(props) {
          
         </Switch>
 
-    
-
       </Box>
     </Box>
   );
