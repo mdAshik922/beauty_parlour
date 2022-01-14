@@ -6,16 +6,16 @@ import React, { useState } from 'react';
 
 const Message = () => {
     const [isMessage, setMessage]=useState({});
+
     const handelInput = e =>{
         const field = e.target.name;
         const value = e.target.value;
    const newLoginData = {...isMessage};
 newLoginData[field]=value;
 setMessage(newLoginData);
-    }
+    };
 
     const handelSubmit = e =>{
-
         fetch('http://localhost:5000/message', {
             method: 'POST',
             headers: {
