@@ -36,7 +36,7 @@ body: JSON.stringify(isMessage)
     }
     return (
     
-<Box sx={{ minWidth: 275, marginBottom: '15px' }}>
+<Box sx={{ minWidth: 275,  backgroundColor: "#fff4f6", marginBottom: "10%" }}>
 <Card style={{width: '50%', marginLeft: 'auto', marginRight: 'auto', alingItem: 'center', justifyContent: 'center', marginTop: '20%'}} variant="outlined">
 
 <form onSubmit={handelSubmit}>
