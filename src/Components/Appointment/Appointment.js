@@ -18,18 +18,15 @@ import Admin from '../Admin/Admin';
 import AppointmentDashBord from './AppointmentDashBord';
 import AddDoctor from '../AddDoctor/AddDoctor';
 
-
 const drawerWidth = 140;
 
 function Appointment(props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = useState(false);
 
-
   let { path, url } = useRouteMatch();
 
   const handleDrawerToggle = () => {
-
     setMobileOpen(!mobileOpen);
   };
 
