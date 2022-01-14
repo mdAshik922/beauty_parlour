@@ -9,8 +9,7 @@ import Service from '../Service/Service';
 const Home = () => {
     return (
         <div>
-            
-           
+ 
            <Banner></Banner>
            <Service></Service>
            <Message></Message>
