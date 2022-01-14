@@ -102,9 +102,9 @@ function Appointment(props) {
           sx={{
             display: { xs: 'none', sm: 'block' },
             '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
-          }}
-          open
-        >
+          }} open >
+         
+       
           {drawer}
         </Drawer>
       </Box>
