@@ -44,7 +44,6 @@ function Appointment(props) {
       <Divider />
       <NavLink  to="/"> <Button  variant="text"  style={{color:"black", textDecoration: "none"}}>Home</Button></NavLink>
       <NavLink  to={`${url}`}> <Button  color="inherit">Dashbord</Button></NavLink>
-      
       <Link  to={`${url}/admin`}> <Button  color="inherit">Admin</Button></Link>
       <Link  to={`${url}/adddoctor`}> <Button  color="inherit">Add-Doctor</Button></Link>
       
@@ -61,8 +60,8 @@ function Appointment(props) {
         sx={{
           width: { sm: `calc(100% - ${drawerWidth}px)` },
           ml: { sm: `${drawerWidth}px` },
-        }}
-      >
+        }}>
+      
         <Toolbar>
           <IconButton
             color="inherit"
