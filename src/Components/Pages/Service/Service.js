@@ -29,14 +29,11 @@ const items = [
     }
 ]
 const Service = () => {
-
   
 const [itemSuccess, setItemSuccess]=useState(false);
 
-
-
     return (
-        <Container>
+        <Container style={{marginTop: "3%"}}>
         <Typography variant="h4" sx={{ color: 'info.main', mb: 3 }}>Our Awesome Service </Typography>
         {/* {itemSuccess && <Alert severity="success"> successfully!</Alert>} */}
         <Grid container spacing={2}>
