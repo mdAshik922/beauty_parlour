@@ -25,12 +25,12 @@ const Header = () => {
           
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          <img width="10%" src={icon} alt=""/>
+          <img width="10%" src={icon} alt="icon"/>
           </Typography>
           {/* <NavLink style={{textDecoration: 'naone'}} to="/appointment"><Button color="inherit" >Appointment</Button></NavLink> */}
          {user.email? 
 <Box>
-<NavLink  to="/appointment"> <Button  color="inherit">Appointment</Button></NavLink>
+<NavLink  to="/appointment" className='nav-button'> <Button  color="inherit">Appointment</Button></NavLink>
 
 <Button onClick={logOut} color="inherit">Logout</Button>
 </Box>
