@@ -7,8 +7,8 @@ const Footer = () => {
     return (
         <Box sx={{ width: '100%',
             height: 300,
-           
-            backgroundColor: '#ef8193'}}>
+           color: "white",
+            backgroundColor: '#f35975'}}>
                 <Grid container spacing={2}>
                 <Grid item xs={8}  md={12}>
                  <Typography variant="h6">
