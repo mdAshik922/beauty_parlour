@@ -11,7 +11,7 @@ const Footer = () => {
                 <Grid container spacing={2}>
                 <Grid item xs={8}  md={12}>
                  <Typography variant="h6">
-<img width="15px" src={map} alt=""/>
+<img width="15px" src={map} alt="Icon"/>
 H#000 (1st Floor), Road #00, 
          </Typography>
                  <Typography variant="h6">
