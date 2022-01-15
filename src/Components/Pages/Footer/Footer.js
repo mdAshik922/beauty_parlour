@@ -7,8 +7,6 @@ import map from '../../Icon/map-pin-2-fill.png';
 const Footer = () => {
     return (
         <Box sx={{ width: '100%', height: 300, color: "white",
-            
-           
             backgroundColor: '#f35975'}}>
                 <Grid container spacing={2}>
                 <Grid item xs={8}  md={12}>
