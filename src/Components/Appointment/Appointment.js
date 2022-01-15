@@ -17,6 +17,7 @@ import {
 import Admin from '../Admin/Admin';
 import AppointmentDashBord from './AppointmentDashBord';
 import AddDoctor from '../AddDoctor/AddDoctor';
+import './Appointment.css';
 
 const drawerWidth = 140;
 
@@ -34,10 +35,10 @@ function Appointment(props) {
     <div>
       <Toolbar />
       <Divider />
-      <NavLink  to="/"> <Button  variant="text"  style={{color:"black", textDecoration: "none"}}>Home</Button></NavLink>
-      <NavLink  to={`${url}`}> <Button  color="inherit">Dashbord</Button></NavLink>
-      <Link  to={`${url}/admin`}> <Button  color="inherit">Admin</Button></Link>
-      <Link  to={`${url}/adddoctor`}> <Button  color="inherit">Add-Doctor</Button></Link>
+      <NavLink  to="/" className='nav-button'> <Button  variant="text"  >Home</Button></NavLink>
+      <NavLink  to={`${url}`} className='nav-button'> <Button  color="inherit">Dashbord</Button></NavLink>
+      <Link  to={`${url}/admin`} className='nav-button'> <Button  color="inherit">Admin</Button></Link>
+      <Link  to={`${url}/adddoctor`} className='nav-button'> <Button  color="inherit">Add-Doctor</Button></Link>
       
     </div>
   );
