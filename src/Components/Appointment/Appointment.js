@@ -42,7 +42,6 @@ function Appointment(props) {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-     
       <Box
         component="nav"
         sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
