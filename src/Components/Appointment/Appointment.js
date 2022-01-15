@@ -87,7 +87,7 @@ function Appointment(props) {
         <Switch>
           <Route exact path={path}><AppointmentDashBord></AppointmentDashBord></Route>
           <Route  path={`${path}/admin`} className='nav-button'><Admin></Admin></Route>
-          <Route  path={`${path}/adddoctor`}><AddDoctor></AddDoctor></Route>
+          <Route  path={`${path}/adddoctor`} className='nav-button'><AddDoctor></AddDoctor></Route>
         </Switch>
 
       </Box>
