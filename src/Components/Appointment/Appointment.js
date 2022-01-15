@@ -5,10 +5,9 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Divider from '@mui/material/Divider';
 import Drawer from '@mui/material/Drawer';
 import Toolbar from '@mui/material/Toolbar';
-import { Button} from '@mui/material';
+import { Button } from '@mui/material';
 import { NavLink } from 'react-router-dom';
-import {
-  Switch, Route,
+import { Switch, Route,
   Link,  useRouteMatch} from "react-router-dom";
 import Admin from '../Admin/Admin';
 import AppointmentDashBord from './AppointmentDashBord';
