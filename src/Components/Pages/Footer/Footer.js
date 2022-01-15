@@ -3,6 +3,7 @@ import Typography from '@mui/material/Typography';
 import { Box } from '@mui/system';
 import React from 'react';
 import map from '../../Icon/map-pin-2-fill.png';
+
 const Footer = () => {
     return (
         <Box sx={{ width: '100%',
