@@ -22,7 +22,7 @@ H#000 (1st Floor), Road #00,
   </Grid>
                  <Grid item xs={4} md={6}>
                  <Typography variant="h6">
-magend
+magendo
          </Typography>
                  <Typography variant="h6">
 magendo
