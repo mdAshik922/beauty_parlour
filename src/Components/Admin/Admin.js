@@ -33,20 +33,20 @@ const handel=e=>{
             <h2>Make admin</h2>
 
 
-<form onSubmit={handelAdminSubmit}>
-                        <TextField
-                            sx={{ width: '75%', m: 1 }}
+            <form onSubmit={handelAdminSubmit}>
+                <TextField
+                    sx={{ width: '75%', m: 1 }}
                            
-                            label="Your Email"
-                            name="email"
-                            onChange={handel}
-                            variant="standard" />
+                    label="Your Email"
+                    name="email"
+                    onChange={handel}
+                    variant="standard" />
 
-<Button type="submit" variant="contained">Make-Admin</Button>
-                            </form>
+                <Button type="submit" variant="contained">Make-Admin</Button>
+            </form>
             
         </div>
-    )
+    );
 };
 
 export default Admin;
