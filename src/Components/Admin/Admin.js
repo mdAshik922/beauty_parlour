@@ -46,7 +46,7 @@ const handel=e=>{
                             </form>
             
         </div>
-    );
+    )
 };
 
 export default Admin;
