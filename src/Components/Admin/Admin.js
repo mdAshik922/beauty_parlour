@@ -5,7 +5,7 @@ import useAuth from '../../Components/Hooks/useAuth';
 
 const Admin = () => {
 const[email, setEmail]=useState('');
-const {token} = useAuth()
+const {token} = useAuth();
 
 const handel=e=>{
     setEmail(e.target.value);
